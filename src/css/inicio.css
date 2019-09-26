@@ -8,6 +8,13 @@ main{
     justify-content: center;
     align-items: center;
     background-attachment: fixed;
+    background-position-x: -400px;
+}
+
+@media screen and (min-width: 550px) {
+    main{
+        background-position-x: 0;
+    }
 }
 
 main>div {
